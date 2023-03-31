@@ -97,19 +97,19 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://54.91.114.199:8081/repository/tesla-app3-releases/</url>
+	      <url>http://54.226.109.72:8081/repository/tesladev-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://54.91.114.199:8081/repository/tesla-app3-snapshot/</url>
+	      <url>http://54.226.109.72:8081/repository/tesla-dev/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
 	
 	<build>
-		<finalName>maven-web-app</finalName>
+		<finalName>tesla-dev</finalName>
 		
 		<plugins>
 			<plugin>
