@@ -109,7 +109,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>tesla-dev1</finalName>
+		<finalName>tesla-mbp</finalName>
 		
 		<plugins>
 			<plugin>
