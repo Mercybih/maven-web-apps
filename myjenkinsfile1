@@ -29,7 +29,6 @@ stage('3.codequality'){
   stage('7deployprod'){
    deploy adapters: [tomcat9(credentialsId: 'tomcat', path: '', url: 'http://35.175.108.94:8177/manager/html/')], contextPath: null, war: 'target/*.war'
  }
- }
 
 stage('8.emailnotification'){
     emailext body: 'the above application is completed, please review before deployment.', recipientProviders: [buildUser(), contributor()], subject: 'ready for deployment', to: 'mercybih678@gmail.com'
